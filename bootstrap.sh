@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# update Ubuntu
+# update Ubuntu box
 apt-get update
 
 # base build utils
@@ -16,8 +16,8 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get -y install nodejs
 
 # Install Gulp 4
-yarn add global gulp-cli@1.2.2
-yarn add global gulpjs/gulp#4.0
+#yarn add global gulp-cli@1.2.2
+#yarn add global gulpjs/gulp#4.0
 
 # need to build Franz
 sudo apt-get -y install libxss-dev libxkbfile-dev libgconf-2-4 pkg-config
