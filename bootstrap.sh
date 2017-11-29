@@ -15,12 +15,11 @@ sudo apt-get update && sudo apt-get install yarn
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get -y install nodejs
 
-# Install Gulp 4
-#yarn add global gulp-cli@1.2.2
-#yarn add global gulpjs/gulp#4.0
+# from franz'doc
+sudo apt-get -y install libx11-dev libxext-dev libxss-dev libxkbfile-dev
+sudo apt-get -y install pkg-config
 
-# need to build Franz
-sudo apt-get -y install libxss-dev libxkbfile-dev libgconf-2-4 pkg-config
+# sudo apt-get -y install libxss-dev libxkbfile-dev libgconf-2-4 pkg-config
 
 # git
 sudo apt-get -y install git
